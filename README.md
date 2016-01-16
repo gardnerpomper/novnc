@@ -79,6 +79,7 @@ will go away once you stop the container. Some packages you might want
 to install:
 
 1) emacs: sudo yum install emacs
+
 2) xeyes: sudo yum install xorg-x11-apps
 
 ## Image size
