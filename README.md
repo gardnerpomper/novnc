@@ -1,5 +1,4 @@
 # novnc
-============
 
 This is the smallest Centos7 noVNC desktop I have been able to
 build. The image is roughly 670MB. It is a very minimal desktop, as it
@@ -44,6 +43,8 @@ docker run -dt -v ${HOME}:/host -e NEWUID=1000 -e NEWGID=50 -p 6080:6080 $IMAGE
 ```
 
 ### To build yourself
+
+```
 git clone https://github.com/gardnerpomper/novnc.git 
 cd novnc
 docker build -t novnc .
